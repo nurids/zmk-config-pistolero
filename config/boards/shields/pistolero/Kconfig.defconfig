@@ -1,0 +1,21 @@
+if SHIELD_PISTOLERO_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Pistolero"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_PISTOLERO_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Pistolero Right"
+	
+endif
+
+if SHIELD_PISTOLERO_LEFT || SHIELD_PISTOLERO_RIGHT
+
+config ZMK_SPLIT
+	default y
