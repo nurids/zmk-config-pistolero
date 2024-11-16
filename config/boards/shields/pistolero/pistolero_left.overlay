@@ -3,17 +3,17 @@
 &kscan0 {
 	diode-direction = "col2row";
 	col-gpios
-		= <&gpio0 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col0
-		, <&gpio1  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col1
-		, <&gpio1  3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col2
-		, <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col3
-		, <&gpio1  21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col4
-		, <&gpio1  22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col5
+		= <&gpio0  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col0
+		, <&gpio0  3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col1
+		, <&gpio0  28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col2
+		, <&gpio0  29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col3
+		, <&gpio0  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col4
+		, <&gpio0  10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col5
 		;
 	row-gpios
-		= <&gpio0 11  GPIO_ACTIVE_HIGH>    //Row0
-		, <&gpio0 10  GPIO_ACTIVE_HIGH>    //Row1
-		, <&gpio0 9   GPIO_ACTIVE_HIGH>    //Row2
-		, <&gpio0 8   GPIO_ACTIVE_HIGH>    //Row3
+		= <&gpio1 15  GPIO_ACTIVE_HIGH>    //Row0
+		, <&gpio1 14  GPIO_ACTIVE_HIGH>    //Row1
+		, <&gpio1 13  GPIO_ACTIVE_HIGH>    //Row2
+		, <&gpio0 12  GPIO_ACTIVE_HIGH>    //Row3
 		;
 };
