@@ -19,3 +19,5 @@ if SHIELD_PISTOLERO_LEFT || SHIELD_PISTOLERO_RIGHT
 
 config ZMK_SPLIT
 	default y
+
+endif
