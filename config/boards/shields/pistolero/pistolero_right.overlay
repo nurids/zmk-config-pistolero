@@ -15,7 +15,7 @@
 		, <&gpio0 9  GPIO_ACTIVE_HIGH>   //Col5
 		;
 	row-gpios
-		= <&gpio_d 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row0
+		= <&xiao_d 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row0
 		, <&xiao_d 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row1
 		, <&xiao_d 1   (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row2
 		, <&xiao_d 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row3
