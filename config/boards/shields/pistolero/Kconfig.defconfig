@@ -1,7 +1,7 @@
 if SHIELD_PISTOLERO_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Pistolero"
+	default "Pistolero L"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -11,7 +11,7 @@ endif
 if SHIELD_PISTOLERO_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Pistolero Right"
+	default "Pistolero R"
 	
 endif
 

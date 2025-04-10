@@ -21,4 +21,6 @@ include:
   - board: seeeduino_xiao_ble
     shield: pistolero_left
   - board: seeeduino_xiao_ble
-    shield: pistolero_right    
+    shield: pistolero_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset    
